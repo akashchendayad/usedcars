@@ -4,21 +4,13 @@ class User_Model extends CI_Model
 {
     protected $tbl = 'tbl_users';
 
-    /**
-     * Use Registration
-     * @param: {array} User Data
-     */
+   
     public function insert_user(array $data) {
         $this->db->insert($this->tbl, $data);
         return $this->db->insert_id();
     }
 
-    /**
-     * User Login
-     * ----------------------------------
-     * @param: username or email address
-     * @param: password
-     */
+ 
     public function user_login($username, $password)
     {
         $this->db->where('username', $username);
