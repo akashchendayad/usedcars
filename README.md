@@ -26,6 +26,8 @@
 
 8. By typing 'http://localhost/usedcars/' into the address bar, the home page will load.
 
+9. You can log in by using 'akash' as username and password.
+
 ## REST API in Codeigniter with token based authentication.
 
 ![url-shortener](img/scrnsht.png)
