@@ -34,9 +34,7 @@
 
    method:post
    form data required:
-   username:
-   password:
-   name:
+   ( username,password,name)
 
 2. Create get method from postman for fetch all users "http://localhost/usedcars/Users/fetch_all_users"
 
@@ -46,5 +44,4 @@
 
    method:post
    form data required:
-   username:
-   password:
+   (username, password)
